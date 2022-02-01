@@ -38,7 +38,7 @@ ul#list li {
 }
 
 nav a {
-    text-transform: lowercase;
+    text-transform: uppercase;
     font-weight: bold;
     color: whitesmoke;
     font-size: 15px;
