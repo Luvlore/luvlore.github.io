@@ -2,62 +2,60 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Meu Portifólio</title>
+    <title>Portifólio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="head">
-            <h1 id='title'>PORTIFÓLIO DE BRUNA LUCHINI</h1>
-            <div class="body">
-                <img id='image' src="imagens/foto.jpeg" alt="Foto de Bruna Luchini" width="250">
-                <p id="presentation">Olá, como vai? Me chamo Bruna Luchini, tenho 18 anos e estou estudando <strong>Desenvolvimento Web</strong> pela <em>Trybe</em>.<br>
-                Sou natural de Cascavel, PR, mas morei boa parte da minha vida em São José dos Pinhais, na região metropolitana de Curitiba e atualmente estou morando em Almirante Tamandaré.<br>
-                Já tive um pouco de contato com programação antes com a linguagem <strong>Python</strong>, pelo curso da EduTech, fornecido pelo governo do Paraná com parceria da Alura.</p>
-            </div>
+    
+    <div id="general">
+        <header>
+            <h1>Portifólio de Bruna Luchini</h1>
+            <section id="section-image">
+                <img  id="image" src="imagens/foto.jpeg" alt="foto de bruna luchini">
+            </section>
+    
+            <nav>
+                <ul id="menu">
+                    <li><a href="#about-me">Sobre Mim</a></li>
+                    <li><a href="#skills">Habilidades</a></li>
+                </ul>
+            </nav>
+        </header>
+    
+        <main>
+            <section>
+                <h2 id="about-me">Quem é Bruna Luchini?</h2>
+                <p id="presentation">
+                    Me chamo Bruna Luchini, tenho dezoito anos de idade e moro em Almirante Tamandaré, no Paraná. Atualmente estou estudando <strong>Desenvolvimento Web</strong> pela Trybe, vendo conceitos fundamentais sobre <strong>Lógica da Programação</strong> e <strong>HTML</strong> e <strong>CSS</strong>, além de estudar mais sobre <em>Front-end</em> e <em>Back-end</em> e eventualmente pincelar um pouco em <em>Ciência da Computação</em>. 
+                </p>
+            </section>
+    
+            <section>
+                <h2 id="skills">Habilidades</h2>
+    
+                <h3>Habilidades em Desenvolvimento</h3>
+                <ul id="list">
+                    <li>Unix</li>
+                    <li>HTML e CSS</li>
+                    <li>JavaScript</li>
+                    <li>Comunicação</li>
+                    <li>Lógica da Programação</li>
+                    <li>Python</li>
+                    <li>MySQL</li>
+                    <li>Inteligência Emocional</li>
+                </ul>
+            </section>
+        </main>
         
-
-            <div class="skills">
-
-                <div class="main-skills">
-                    <h2 class="subtitle">Principais habilidades:</h2>
-                    <ul>
-                        <li id=""><strong>Comunicação</strong></li>
-                        <li>Inglês Básico</li>
-                        <li>Excel Intermediário</li>
-                        <li>Lógica da Programação</li>
-                    </ul>
-                </div>
-
-                <div class="learning-skills">
-                    <h2 class="subtitle">Habilidades que estou aprendendo:</h2>
-                    <ul>
-                        <li>Unix</li>
-                        <li>Bash</li>
-                        <li>Redes</li>
-                        <li>HTML e CSS</li>
-                        <li>JavaScript</li>
-                        <li>Python</li>
-                        <li>MySQL</li>
-                        <li>Inteligência Emocional</li>
-                        <li>Autoliderança</li>
-                    </ul>
-                </div>
-
-            </div>
-
-            <div class="social-medias">
-
-                <!-- icons referentes a este link https://dribbble.com/shots/15195610-Free-Minimal-Social-Icons-->
-
-                <h2 id="social-medias">Onde pode me encontrar</h2>
-                <a href="https://github.com/luvlore/" target="_blank"><img src="imagens/icones/Github.png" alt="GitHub" width="35px"><abbr title="GitHub"></abbr></a>
-                <a href="https://www.instagram.com/afallrea_/" target="_blank"><img src="imagens/icones/Instagram.png" alt="Instagram" width="35px"><abbr title="Instagram"></abbr></a>
-                <a href="https://www.linkedin.com/in/bruna-luchini-5aa7a6185/" target="_blank"><img src="imagens/icones/Linkedin.png" alt="Linkedin" width="35px"><abbr title="Linkedin"></abbr></a>
-                <a href="https://twitter.com/afallrea" target="_blank"><img src="imagens/icones/Twitter.png" alt="Twitter" width="35px"><abbr title="Twitter"></abbr></a>
-            </div>
-
-        </div>
+        <footer>
+            <h2 id="social-medias">Onde me encontrar:</h2>
+            <ul id="social">
+                <li><a href="">Linkedin</a></li>
+                <li><a href="">GitHub</a></li>
+                <li><a href="">Instagram</a></li>
+                <li><a href="">Twitter</a></li>
+            </ul>
+        </footer>
     </div>
 </body>
 </html>
