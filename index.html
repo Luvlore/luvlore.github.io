@@ -1,61 +1,109 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=El+Messiri&family=Josefin+Sans:wght@200&display=swap" rel="stylesheet">
 </head>
 <body>
-    
-    <div id="general">
-        <header>
-            <h1>Portifólio de Bruna Luchini</h1>
-            <section id="section-image">
-                <img  id="image" src="imagens/foto.jpeg" alt="foto de bruna luchini">
-            </section>
-    
-            <nav>
-                <ul id="menu">
-                    <li><a href="#about-me">Sobre Mim</a></li>
-                    <li><a href="#skills">Habilidades</a></li>
-                </ul>
-            </nav>
-        </header>
-    
-        <main>
-            <section>
-                <h2 id="about-me">Quem é Bruna Luchini?</h2>
-                <p id="presentation">
-                    Me chamo Bruna Luchini, no entanto, caso queira, pode me chamar de <em>Luv</em> ou <em>Rea</em>. Atualmente estou estudando <strong>Desenvolvimento Web</strong> pela Trybe, vendo conceitos fundamentais sobre <strong>Lógica da Programação</strong> e <strong>HTML</strong> e <strong>CSS</strong>, além de estudar mais sobre <em>Front-end</em> e <em>Back-end</em> e eventualmente pincelar um pouco em <em>Ciência da Computação</em>. 
-                </p>
-            </section>
-    
-            <section>
-                <h2 id="skills">Habilidades</h2>
-    
-                <h3>Habilidades em Desenvolvimento</h3>
-                <ul id="list">
-                    <li>Unix</li>
-                    <li>HTML e CSS</li>
-                    <li>JavaScript</li>
+    <div class="flex-top flex">
+        <div class="flex-name flex">
+            <h1><a href="#inicio">Bruna Rafella Luchini</a></h1>
+        </div>
+        <nav class="flex-nav flex">
+            <a class="flex-link flex" href="#about-me">Sobre Mim</a>
+            <a class="flex-link flex" href="#skills">Habilidades</a>
+            <a class="flex-link flex" href="#projects">Projetos</a>
+            <a class="flex-link flex" href="#social-medias">Onde Me Encontrar</a>
+        </nav>
+    </div>
+    <header id="inicio" class="flex-title flex">
+        <h1>
+            Olá, eu me chamo<br>
+            <span class="name">Bruna Luchini</span>
+            <br><span class="subtitle">E sou uma estuante de Desenvolvimento Web</span>
+        </h1>
+        <p class="credits">Imagem retirada do jogo <a href="https://store.steampowered.com/app/897730/Among_Trees/">Among Trees</a></p>
+    </header>
+
+    <div class="container flex" id="about-me">
+        <div class="box flex">
+            <img src="images/photo.png" alt="">
+            <main>
+                <h1>Sobre Mim.</h1>
+                <p>Sou apenas uma simples jovem de dezoito anos que está perdida em meio a este mundo e procurando um rumo a se tomar na vida. Atualmente estou fazendo cursos de Desenvolvimento Web para melhorar minhas habilidades perante ao mercado de trabalho, além de uma vez ou outra fuçar um pouquinho em Segurança da Informação e Banco de Dados.</p>
+                <p>Sou natural de Cascavel, lá no Oeste do Paraná, mas vim para a região metropolitana de Curitiba quando eu tinha quatro anos e agora eu moro em Almirante Tamandaré.</p>
+                <p>Infelizmente não tenho experiência na área de técnologia e apenas tenho um estágio que realizei em 2020 no Banco do Brasil e um Jovem Aprendiz que estou fazendo no momento na Sanepar.</p>
+                <p>E bem, acho que é isso. Também se quiser, pode me chamar de Luv ou Rea. Até mais •-•)/.</p>
+            </main>
+        </div>
+
+    </div>
+
+    <section class="skills" id="skills">
+        <h1>Habilidades</h1>
+        <div class="skills-flex flex">
+            <div class="container1 main-skilss">
+                <h2>Habilidades Desenvolvidas</h2>
+                <ul>
                     <li>Comunicação</li>
                     <li>Lógica da Programação</li>
-                    <li>Python</li>
-                    <li>MySQL</li>
-                    <li>Inteligência Emocional</li>
+                    <li>Git</li>
+                    <li>GitHub</li>
+                    <li>Bash</li>
+                    <li>Unix</li>
+                    <li>Windows</li>
+                    <li>Internet</li>
                 </ul>
-            </section>
-        </main>
-        
-        <footer>
-            <h2 id="social-medias">Onde me encontrar:</h2>
-            <ul id="social">
-                <li><a href="">Linkedin</a></li>
-                <li><a href="">GitHub</a></li>
-                <li><a href="">Instagram</a></li>
-                <li><a href="">Twitter</a></li>
-            </ul>
-        </footer>
-    </div>
+            </div>
+    
+            <div  class="container2 developing-skills">
+                <h2>Habilidades em Desenvolvimento</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Inglês</li>
+                    <li>Inteligência Emocional</li>
+                    <li>Autoliderança</li>
+                    <li>Python</li>
+                    <li>SQL</li>
+                    <li>Segurança da Informação</li>
+                    <li>Excel</li>
+                    <li>Empatia</li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="flex-projects" id="projects">
+        <h1>Projetos</h1>
+        <div class="box2 flex">
+            <h2>Em breve...</h2>
+        </div>
+    </section>
+    
+    <section class="social-medias" id="social-medias">
+        <h1>Onde me encontar</h1>
+        <a href=""><img src="images/icones/Github.png" alt=""></a
+        <a href=""><img src="images/icones/Linkedin.png" alt=""></a
+        <a href=""><img src="images/icones/Instagram.png" alt=""></a
+        <a href=""><img src="images/icones/Twitter.png" alt=""></a>
+    </section>
+
+    <footer class="flex">
+        <p>Portifólio criado por Bruna Luchini</p>
+    </footer>
+
 </body>
 </html>
