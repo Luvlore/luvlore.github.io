@@ -8,8 +8,10 @@ body {
     background-color: #031226;
 }
 
+/* personilização do scrollbar https://www.digitalocean.com/community/tutorials/css-scrollbars-pt */
+
 body::-webkit-scrollbar {
-    width: 12px;               /* width of the entire scrollbar */
+    width: 12px;
   }
   
 body::-webkit-scrollbar-thumb {
@@ -231,7 +233,6 @@ main::-webkit-scrollbar-thumb {
 
 .social-medias img {
     width: 50px;
-    justify-content: space-around;
 }
 
 footer { 
