@@ -1,112 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifólio</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=El+Messiri&family=Josefin+Sans:wght@200&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <div class="flex-top flex">
-        <div class="flex-name flex">
-            <h1><a href="#inicio">Bruna Rafella Luchini</a></h1>
-        </div>
-        <nav class="flex-nav flex">
-            <a class="flex-link flex" href="#about-me">Sobre Mim</a>
-            <a class="flex-link flex" href="#skills">Habilidades</a>
-            <a class="flex-link flex" href="#projects">Projetos</a>
-            <a class="flex-link flex" href="#social-medias">Onde Me Encontrar</a>
-        </nav>
+  <header class="flex">
+    <p>Portifólio</p>
+    <nav>
+      <ul class="flex nav">
+        <li><a href="#about-me">Sobre mim</a></li>
+        <li><a href="#skills">Habilidades</a></li>
+        <li><a href="#projects">Projetos</a></li>
+      </ul>
+    </nav>
+    <div id="button">
+      <div class="line-1"></div>
+      <div class="line-2"></div>
+      <div class="line-3"></div>
+    </div>
+  </header>
+
+  <section class="hero flex">
+    <img src="images/background/1.png" id="floor">
+    <img src="images/background/2.png" id="cave">
+    <img src="images/background/3.png" id="front-mountain">
+    <img src="images/background/4.png" id="middle-mountain">
+    <h1 id="title">Bem-Vindo</h1>
+    <h2 id="subtitle">ao meu portifólio</h2>
+    <img src="images/background/5.png" id="behind-mountain">
+    <img src="images/background/6.png" id="moon">
+  </section>
+
+  <section class="content flex" id="about-me">
+    <div id="photo">
+      <img src="images/foto.jpeg" alt="">
+      <!-- <p>18 anos — Trybe — Let's Code</p> -->
+    </div>
+    <div class="text">
+      <h1>Sobre Mim</h1>
+      <p>Me chamo Bruna Luchini. Tenho 18 anos de idade e sou uma estudante de Desenvolvimento Web nas escolas de programação da Trybe e da Let's Code.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus aspernatur debitis, autem mollitia corporis quaerat ipsum dignissimos vitae repudiandae omnis fugit accusamus sapiente quo? Dolores impedit ex quaerat libero debitis voluptate deleniti. Nihil quisquam quia corrupti sunt ratione, et voluptates?</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus aspernatur debitis, autem mollitia corporis quaerat ipsum dignissimos vitae repudiandae omnis fugit accusamus sapiente quo? Dolores impedit ex quaerat libero debitis voluptate deleniti. Nihil quisquam quia corrupti sunt ratione, et voluptates?</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus aspernatur debitis, autem mollitia corporis quaerat ipsum dignissimos vitae repudiandae omnis fugit accusamus sapiente quo? Dolores impedit ex quaerat libero debitis voluptate deleniti. Nihil quisquam quia corrupti sunt ratione, et voluptates?</p>
+    </div>
+  </section>
+
+  <section id="skills" class="skills">
+    <h1>Habilidades</h1>
+    <div class="flex skills-container">
+      <div>
+      <h2>Habilidades Desenvolvidas</h2>
+      <ul>
+        <li>Lorem ipsum dolor sit.</li>
+          <li>Lorem ipsum dolor sit.</li>
+          <li>Lorem ipsum dolor sit.</li>
+          <li>Lorem ipsum dolor sit.</li>
+          <li>Lorem ipsum dolor sit.</li>
+          <li>Lorem ipsum dolor sit.</li>
+          <li>Lorem ipsum dolor sit.</li>
+          <li>Lorem ipsum dolor sit.</li>
+        </ul>
+      </div>
+      <div>
+        <h2>Habilidades em Desenvolvimento</h2>
+        <ul>
+          <li>Lorem ipsum dolor sit.</li>
+          <li>Lorem ipsum dolor sit.</li>
+          <li>Lorem ipsum dolor sit.</li>
+          <li>Lorem ipsum dolor sit.</li>
+          <li>Lorem ipsum dolor sit.</li>
+          <li>Lorem ipsum dolor sit.</li>
+          <li>Lorem ipsum dolor sit.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="flex">
+      <h1>Pojetos</h1>
+      <h2>Em Desenvolvimento...</h2>
+    </div>
+  </section>
+
+  <footer class="flex">
+    <div class="flex social-medias">
+      <a href=""><img src="images/icones/Github.png" alt=""></a>
+      <a href=""><img src="images/icones/Linkedin.png" alt=""></a>
+      <a href=""><img src="images/icones/Instagram.png" alt=""></a>
+      <a href=""><img src="images/icones/Twitter.png" alt=""></a>
     </div>
 
-    <header id="inicio" class="flex-title flex">
-        <h1>
-            Olá, eu me chamo<br>
-            <span class="name">Bruna Luchini</span>
-            <br><span class="subtitle">E sou uma estuante de Desenvolvimento Web</span>
-        </h1>
-        <p class="credits">Imagem retirada do jogo <a href="https://store.steampowered.com/app/897730/Among_Trees/">Among Trees</a></p>
-    </header>
+    <p>Portifólio criado por Bruna Luchini</p>
+  </footer>
 
-    <div class="container flex" id="about-me">
-        <div class="box flex">
-            <img src="images/photo.png" alt="">
-            <main>
-                <h1>Sobre Mim.</h1>
-                <p>Sou apenas uma simples jovem de dezoito anos que está perdida em meio a este mundo e procurando um rumo a se tomar na vida. Atualmente estou fazendo cursos de Desenvolvimento Web para melhorar minhas habilidades perante ao mercado de trabalho, além de uma vez ou outra fuçar um pouquinho em Segurança da Informação e Banco de Dados.</p>
-                <p>Sou natural de Cascavel, lá no Oeste do Paraná, mas vim para a região metropolitana de Curitiba quando eu tinha quatro anos e agora eu moro em Almirante Tamandaré.</p>
-                <p>Infelizmente não tenho experiência na área de técnologia e apenas tenho um estágio que realizei em 2020 no Banco do Brasil e um Jovem Aprendiz que estou fazendo no momento na Sanepar.</p>
-                <p>E bem, acho que é isso. Também se quiser, pode me chamar de Luv ou Rea. Até mais •-•)/.</p>
-            </main>
-        </div>
-
-    </div>
-
-    <section class="skills" id="skills">
-        <h1>Habilidades</h1>
-        <div class="skills-flex flex">
-            <div class="container1 main-skilss">
-                <h2>Habilidades Desenvolvidas</h2>
-                <ul>
-                    <li>Comunicação</li>
-                    <li>Lógica da Programação</li>
-                    <li>Git</li>
-                    <li>GitHub</li>
-                    <li>Bash</li>
-                    <li>Unix</li>
-                    <li>Windows</li>
-                    <li>Internet</li>
-                </ul>
-            </div>
-    
-            <div  class="container2 developing-skills">
-                <h2>Habilidades em Desenvolvimento</h2>
-                <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                    <li>Inglês</li>
-                    <li>Inteligência Emocional</li>
-                    <li>Autoliderança</li>
-                    <li>Python</li>
-                    <li>SQL</li>
-                    <li>Segurança da Informação</li>
-                    <li>Excel</li>
-                    <li>Empatia</li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
-    <section class="flex-projects" id="projects">
-        <h1>Projetos</h1>
-        <div class="box2 flex">
-            <h2>Em breve...</h2>
-        </div>
-    </section>
-    
-    <section class="social-medias" id="social-medias">
-        <h1>Onde me encontar</h1>
-
-        <!-- icons referentes a este link https://dribbble.com/shots/15195610-Free-Minimal-Social-Icons-->
-        <a href="https://github.com/Luvlore/" target="_blank"><img src="images/icones/Github.png" alt=""></a>
-        <a href="https://www.linkedin.com/in/bruna-luchini-5aa7a6185/" target="_blank"><img src="images/icones/Linkedin.png" alt=""></a>
-        <a href="https://www.instagram.com/afallrea_/" target="_blank"><img src="images/icones/Instagram.png" alt=""></a>
-        <a href="https://twitter.com/afallrea" target="_blank"><img src="images/icones/Twitter.png" alt=""></a>
-    </section>
-
-    <footer class="flex">
-        <p>Portifólio criado por Bruna Luchini</p>
-    </footer>
-
+  <script src="script.js"></script>
 </body>
+
 </html>
