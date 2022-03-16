@@ -64,7 +64,7 @@ header ul li a {
     transition: color 0.9s, padding 0.9s, font-weight 0.9s, background-color 0.9s, border-radius 0.9s;
 }
 
-header ul li a:hover {
+.selected, header ul li a:hover {
     color: #24162d;
     font-weight: 700;
     background-color: aliceblue;
@@ -319,6 +319,7 @@ header ul li a:hover {
 
 .skills-container h2 {
     padding: 0 0 10px 0;
+    color: #24162d;
 }
 
 .skills-container div {
@@ -336,8 +337,15 @@ header ul li a:hover {
 }
 
 .skills-container ul li {
-    padding: 3px;
+    padding: 6px;
+    height: 13px;
     color: aliceblue;
+    transition: all 0.6s;
+}
+
+.skills-container ul li:hover {
+    font-size: 17px;
+    text-shadow: 0px 0px 6px rgb(255 255 255 / 50%);
 }
 
 @media screen and (max-width: 1040px) {
