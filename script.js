@@ -23,7 +23,7 @@ window.onscroll = () => {
   moon.style.top = value * 1.15 + 'px';
   mountainBehind.style.top = value * 1 +'px';
   mountainMiddle.style.top = value * 0.6 +'px';
-  mountainFront.style.top = value * 0 +'px';
+  mountainFront.style.top = value * 0.2 +'px';
   
   title.style.marginTop = value * 0.7 + 'px';
   subtitle.style.left = value * 2 + 'px';
