@@ -11,11 +11,6 @@ const button = document.getElementById('button');
 const nav = document.getElementsByClassName('nav')[0];
 
 button.onclick = () => {
-  if (nav.classList.contains('selectd')) {
-    nav.classList.remove('selected');
-  }
-  
-  nav.classList.add('selected');
   nav.classList.toggle('active');
 }
 
