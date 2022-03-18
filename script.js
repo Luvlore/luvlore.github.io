@@ -11,19 +11,22 @@ const button = document.getElementById('button');
 const nav = document.getElementsByClassName('nav')[0];
 
 button.onclick = () => {
+  if (nav.classList.contains('selectd')) {
+    nav.classList.remove('selected');
+  }
+  
+  nav.classList.add('selected');
   nav.classList.toggle('active');
 }
-
-nav.forEach()
 
 subtitle.style.left = 0;
 
 window.onscroll = () => {
   let value = window.scrollY;
   moon.style.top = value * 1.15 + 'px';
-  mountainBehind.style.top = value * 1 + 'px';
-  mountainMiddle.style.top = value * 0.6 + 'px';
-  mountainFront.style.top = value * 0 + 'px';
+  mountainBehind.style.top = value * 1 +'px';
+  mountainMiddle.style.top = value * 0.6 +'px';
+  mountainFront.style.top = value * 0 +'px';
   
   title.style.marginTop = value * 0.7 + 'px';
   subtitle.style.left = value * 2 + 'px';
