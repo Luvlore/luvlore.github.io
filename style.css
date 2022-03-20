@@ -18,6 +18,10 @@ body::-webkit-scrollbar {
 body::-webkit-scrollbar-thumb {
     background: #725b86;
     border-radius: 20px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background: #947ea7;
 } 
 
 body::-webkit-scrollbar-track {
@@ -304,7 +308,6 @@ header ul li a {
     background: linear-gradient(to top, #24162d, transparent);
     z-index: 1000;
 }
-
 
 .skills h1 {
     padding: 0 0 50px 0;
