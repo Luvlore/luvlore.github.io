@@ -318,7 +318,9 @@ header ul li a {
 
 .skills-container {
     justify-content: space-evenly;
+    align-items: flex-start;
 }
+
 
 .skills-container h2 {
     padding: 0 0 10px 0;
@@ -330,6 +332,7 @@ header ul li a {
     width: 500px;
     padding: 20px 0;
     background-color: #725b86;
+    transition: all 0.6s;
     border-radius: 20px;
 }
 

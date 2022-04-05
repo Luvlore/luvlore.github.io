@@ -27,5 +27,10 @@ window.onscroll = () => {
   subtitle.style.left = value * 2 + 'px';
   subtitle.style.marginTop = value * 0.7 + 'px';
   subtitle.style.marginLeft = value * 1.7 + 'px';
-  // subtitle.style.bottom = value * 9 + 'px';
 }
+
+cheet('↑ ↑ ↓ ↓ ← → ← → b a', function () {
+  window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley');
+
+  alert('NEVER GONNA LET YOU DOWN NEVER GONNA RUN AROUND AND DESERT YOOOU');
+});
